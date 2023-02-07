@@ -1,0 +1,65 @@
+form {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  h1{
+    text-align: center;
+  }
+  
+  .main{
+    text-align: center;
+
+  }
+
+
+  form{
+    background-color: darkblue;
+    
+  }
+  
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="Age"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
