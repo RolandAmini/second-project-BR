@@ -8,37 +8,115 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <h1 id="title">freeCodeCamp Survey Form</h1>
-<p class="main">Thank you for taking the time to help us improve the platform.</p>
-<form id="survey-form">
-  <label for="name" id="name-label">Name:</label>
-  <input type="text" id="name" placeholder="Enter your name">
-  <label for="email" id="email-label">Email:</label>
-  <input type="email" id="email" placeholder="Enter your email" required>
-  <label for="age" id="number-label">Age:</label>
-  <input type="age" id="number" placeholder="Age" min="1" max="100" required>
-  <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
-  <select id="dropdown">
-    <option value="option1">Select current role</option>
-    <option value="option2">student</option>
-    <option value="option2">full time job</option>
-    <option value="option2">full time leaner</option>
-    <option value="option2">prefer not to say</option>
-    <option value="option2">other</option>
-  </select>
-  <p>Would you recommend freeCodeCamp to a friend?</p>
-  <input type="radio" name="radio" value="radio1">Definitely
-  <input type="radio" name="radio" value="radio2">Maybe
-  <input type="radio" name="radio" value="radio3">Not sure
-  <p>What is your favorite feature of freeCodeCamp?</p>
-  <input type="checkbox" name="checkbox" value="checkbox1">Checkbox 1
-  <input type="checkbox" name="checkbox" value="checkbox2">Checkbox 2
-  <label for="comments" id="comments-label">Any comments or suggestions?:</label>
-  <textarea id="comments">enter your comment here</textarea>
-  <button id="submit" type="submit">Submit</button>
-</form>
+    <p id="description"><i> Thank you for taking the time to help us improve the platform</i></p>
+    <form action="" id="survey-form">
 
-    
+        <div class="form1">
+            <label for="" id="name-label">Name</label><input required type="text" id="name" class="name" placeholder="Enter your Name">
+
+        </div>
+   
+<div class="form1">
+    <label for="" id="email-label">Email</label>
+    <input required type="email" id="email"class="name" placeholder="Enter your Email">
+
+</div>
+
+   
+
+    <div class="form1">
+        <label for="" id="number-label">Age</label>
+        <input type="number" name="age" id="number" class="name" min="10" max="200" placeholder="Enter any Number">
+
+    </div>
+   
+    <label for="" id="dropdown-label">Which option best describes your current role?</label>
+<div class="form">
+   
+    <select name="dropdown" id="dropdown" class="nameSelect">
+        <option value="" >student</option>
+        <option value="1">teacher</option>
+        <option value="2">employed</option>
+        <option value="3">unemployed</option>
+    </select>
+
+</div>
+  
+<div class="form">
+    <label for="" id="label-radio">Would you recommend freeCodeCamp to a friend?</label>
+</div>
+
+<div class="form">  <input type="radio" name="choice" id="" value="1" class="radio">
+    <label for="" class="radio">Definitely</label>
+</div>
+  
+<div class="form">
+    <input type="radio" name="choice" id="" value="2" class="radio">
+    <label for="" class="radio">maybe</label>
+
+</div>
+  
+<div class="form">
+    <input type="radio" name="choice" id="" value="3" class="radio">
+    <label for="" class="radio">not sure</label>
+
+</div>
+  
+
+   <h3>What would you like to see improved? (Check all that apply</h3>
+
+   <div class="form">
+    <input type="checkbox" name="Projects" id="" value="project1">
+    <label for="">Front-end Projects</label>
+
+
+   </div>
+
+
+   <div class="form">
+    <input type="checkbox" name="Projects" id="" value="project2">
+    <label for="">backend-end Projects</label>
+
+   </div>
+   
+   
+<div class="form">
+    <input type="checkbox" name="Projects" id="" value="project3">
+    <label for="">Data Visualization
+    </label>
+
+</div>
+   
+<div class="form">
+    <input type="checkbox" name="Projects" id="" value="project4">
+    <label for="">challenges</label>
+
+</div>
+
+<div class="form">
+    <input type="checkbox" name="Projects" id="" value="project5">
+    <label for="">Videos</label>
+
+</div>
+   
+<div class="form">
+    <input type="checkbox" name="Projects" id="" value="project6">
+    <label for="">wiki</label>
+
+</div>
+  
+
+    <p>Any comments or suggestions?</p>
+
+    <textarea name="write" id="textarea" cols="30" rows="10">
+
+    </textarea>
+   
+    <button type="submit" id="submit">submit</button>
+
+</form>
+    <!-- <input type="email" name="" id=""> -->
+
 </body>
 </html>
